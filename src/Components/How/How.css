@@ -1,0 +1,71 @@
+.How{
+    width: 100%;
+    height: 879px;
+    background: #004050;
+    margin-top: 70px;
+}
+.how-text{
+    padding-top: 120px;
+    display: flex;
+}
+.text_1{
+    width: 533px;
+    height: 130px;
+    font-weight: 700;
+    font-size: 48px;
+    color: #FFFFFF;
+
+}
+.text_2{
+    width: 487px;
+    height: 84px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #d3d2d2;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.cards{
+    margin-top: 69px;
+    display: flex;
+    column-gap: 8px;
+}
+.card-1{
+    margin-top: -12px;
+}
+.card{
+    height: 439px;
+    width: 374px;
+    border-radius: 10px;
+    background: #FFE377;
+    padding: 64px 32px 64px 32px;
+}
+.card .line{
+    width: 310px;
+    height: 1px;
+    background: #000000;    
+    opacity: 0.72;
+    margin-top: 56px;
+}
+.card-title{
+    margin-top: 16px;
+    margin-bottom: 8px;
+    width: 160px;
+    height: 54px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.card-text{
+    width: 260px;
+    height: 104px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.card-2,
+.card-3{
+    color: white;
+    background: rgb(10,71,87);
+    
+}

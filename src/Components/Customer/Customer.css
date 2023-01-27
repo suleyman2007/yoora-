@@ -1,0 +1,58 @@
+.Customer{
+    margin-top: 120px;
+}
+.welo{
+    display: flex;
+    column-gap: 500px;
+}
+.welo p{
+    height: 116px;
+    width: 570px;
+    font-weight: 700;
+    font-size: 48px;
+}
+.welo span{
+    position: relative;
+    font-size: 20px;
+    line-height: 27px;
+    margin-top: 80px;
+}
+.welo span::before{
+    content: '';
+    position: absolute;
+    height: 15px;
+    width: 7px;
+    background-image: url('../../img//customers/Shape\ \(2\).png');
+    margin-top: 6px;
+    margin-left: 65px;
+}
+.customers-block{
+    margin-top: 77px;
+    display: flex;
+    column-gap: 50px;
+}
+.block-1{
+    height: 371px;
+    width: 360px;
+}
+
+.block-1 hr{
+    margin-top: 30px;
+}
+.block-inf{
+    margin-top: 25px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    
+}
+.block-user{
+    margin-top: 50px;
+    display: flex;
+}
+.user-name{
+    margin-left: 12px;
+}
+.block-user3{
+    margin-top: 116px;
+}

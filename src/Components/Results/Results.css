@@ -1,0 +1,64 @@
+.Results{
+    margin-top: 240px;
+}
+.results-text h2{
+    font-size: 48px;
+    font-weight: 700;
+
+}
+.results-text p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #3B3A40;
+}
+.results-inner hr{
+    margin-top: 72px;
+}
+.generate-sales{
+    display: flex;
+    column-gap: 163px;
+    margin-top: 48px;
+
+}
+.dooll h2{
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 74px;
+}
+.dooll p{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+}
+.sals-usr2{
+    margin-left: 90px;
+}
+.usr-info{
+    width: 750px;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+}
+.usr-info2{
+    width: 770px;
+
+}
+.urs-user{
+    margin-top: 30px;
+    display: flex;
+}
+.user-name{
+    margin-top: 3px;
+    margin-left: 12px;
+}
+.user-name p{
+    font-weight: 700;
+    font-size: 16px;
+    
+}
+.user-name span{
+    font-weight: 400;
+    font-size: 16px;
+    color: #404040;
+}

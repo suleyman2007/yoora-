@@ -1,0 +1,397 @@
+.Sales{
+    margin-top: 120px;
+}
+hr{
+    background: #787878;
+    transform: rotate(180deg);
+}
+.sales-inner{
+    display: flex;
+}
+
+.sales-info{
+    margin-top: 93px;
+}
+.info-title{
+    width: 65px;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 7px 9px 6px 8px;
+    background: #FFE377;
+    border-radius: 4px;
+    text-align: center;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+}
+.revenue{
+    margin-top: 16px;
+    width: 460px;
+    height: 116px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+}
+.info-text{
+    margin-top: 24px;
+    width: 487px;
+    height: 56px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+.Atask{
+    display: flex;
+    column-gap: 25px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+.Atask img{
+    width: 24px;
+    height: 24px;
+}
+.Atask-text1{
+    margin-top: 25px;
+    width: 439px;
+    height: 56px;
+}
+.Atask-text2{
+    margin-top: 16px;
+    width: 487px;
+    height: 56px;
+}
+.sales_img{
+    position: relative;
+    margin-top: 45px;
+    width: 555px;
+    height: 555px;
+    background: #F4F4F4;
+    border-radius: 12px;
+    margin-left: 200px;
+    
+}
+.sales_img .img-bloack{
+    margin: 48px 68px;
+}
+.incom{
+    position: absolute;
+    margin-top: -480px;
+    margin-left: 245px;
+    height: 156px;
+    width: 272px;
+    border-radius: 12px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+}
+.in-text{
+    margin-top: 31px;
+    margin-left: 32px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.doll{
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+
+}
+.in-text img{
+    margin-left: 80px;
+    width: 24px;
+    height: 24px;
+}
+.dai{
+    font-weight: 400;
+    font-size: 14px;
+    color: #787878;
+}
+.staric-line{
+    display: flex;
+}
+.line-2{
+    position: relative;
+    height: 4px;
+    width: 167px;
+    border-radius: 2.5px;
+    background: #DCDCDC;
+
+    margin-top: 35px;
+    margin-left: 32px;
+}
+.line-2::after{
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 98px;
+
+    background: #00CC61;
+    border-radius: 2.5px 0px 0px 2.5px;
+}
+.sales_img span{
+    margin-top: 27.4px;
+    margin-left: 15px;
+}
+.line-3{
+    margin-top: 120px;
+}
+.Marketing{
+    position: relative;
+    margin-top: 50px;
+    width: 555px;
+    height: 555px;
+    background: #F4F4F4;
+    border-radius: 12px;
+    display: flex;
+}
+.sales_img-2 .mark-img{
+    margin-left: 90px;
+    margin-top: 54px;
+}
+.Automate{
+    position: absolute;
+    width: 457px;
+    height: 80px;
+    margin-top: -115px;
+    margin-left: 50px;
+    background: #004050;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+    display: flex;
+}
+.Automate p{
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin: 28px 24px;
+}
+.Automate button{
+    height: 56px;
+    width: 126px;
+
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #00CC61;
+    border: none;
+    border-radius: 8px;
+    margin-top: 12px;
+}
+
+.Marketing-info{
+    margin-top: 80px;
+    margin-left: 200px;
+}
+.Marketing-warning{
+    width: 112px;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 7px 9px 6px 8px;
+    background: #FFE377;
+    border-radius: 4px;
+    text-align: center;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+}
+.Marketing-title{
+    width: 587px;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: -0.666667px;
+}
+.market-info{
+    width: 500px;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.2px;
+}
+.line-4{
+    margin-top: 120px;
+}
+.Service{
+    margin-top: 115px;
+}
+.Service-warning{
+    width: 112px;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 7px 9px 6px 8px;
+    background: #FFE377;
+    border-radius: 4px;
+    text-align: center;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+}
+.Service-title{
+    width: 587px;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: -0.666667px;
+}
+.Service-info{
+    width: 510px;
+    height: 84px;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.2px;
+}
+.Service_img-3{
+    position: relative;
+    height: 555px;
+    width: 555px;
+    border-radius: 12px;
+    background: #F4F4F4;
+    margin-left: 600px;
+    margin-top: -150px;
+}
+.ServiceImg-inner{
+    position: absolute;
+    height: 459px;
+    width: 420px;
+    border-radius: 12px;
+
+    background: #FFFFFF;
+
+    margin-top: 48px;
+    margin-left: 68px;
+    overflow: hidden;
+}
+.lead{
+    height: 89px;
+    width: 372px;
+    background: #004050;
+    border-radius: 12px;
+    margin: 24px 24px 0px 24px;
+
+}
+.lead p{
+    position: absolute;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 23px;
+    margin-left: 23px;
+}
+.line-lead{
+    position: absolute;
+    height: 8px;
+    width: 175px;
+    border-radius: 2px;
+
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.16;
+    border-radius: 2px;
+
+    margin-top: 54px;
+    margin-left: 24px;
+}
+.card-raect{
+    height: 400px;
+    width: 372px;
+    background: #FFFFFF;
+    border: 1px solid #E9E9E9;
+    border-radius: 12px;
+    margin-left: 24px;
+    margin-top: 12px;
+}
+.user-name{
+    margin-top: 24px;
+    margin-left: 24px;
+    margin-bottom: -20px;
+
+    font-weight: 700;
+    font-size: 18px;
+}
+.block{
+    margin-top: 24px;
+    margin-left: 24px;
+    margin-bottom: 24px;
+    display: flex;
+}
+
+.block img{
+    height: 32px;
+    width: 32px;
+}
+.line-lead-2{
+    height: 8px;
+    width: 205px;
+    background: #E8E8E8;
+    border-radius: 2px;
+    margin-top: 10px;
+    margin-left: 12px;
+}
+.im-lin{
+    margin-top: 16px;
+    margin-left: 24px;
+}
+.im-lin p{
+    font-weight: 700;
+    font-size: 14px;
+}
+.line-lead-3{
+    height: 8px;
+    width: 295px;
+    background: #E8E8E8;
+    border-radius: 2px;
+    margin-top: 14px;
+    margin-bottom: 16px;
+}
+.line-lead-4{
+    height: 8px;
+    width: 205px;
+    background: #E8E8E8;
+    border-radius: 2px;
+
+}
+.days{
+    position: relative;
+    margin-top: 25px;
+    display: flex;
+}
+.line-img::before{
+    content: '';
+    position: absolute;
+
+    background-image: url('../../img/Sales/Line.png');
+
+    width: 2px;
+    height: 80px;
+    margin-top: 32px;
+    margin-left: 3px;
+}
+.days-tasks-day{
+    display: flex;
+}
+.days-tasks-day p{
+    margin-left: 12px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.Dot{
+    height: 8px;
+    width: 8px;
+    background: #00CC61;
+    border-radius: 10px;
+    margin-top: 4px;
+}
+.Days-and-times p{
+    font-weight: 400;
+    font-size: 12px;
+    color: #777777;
+}
+.and-timI{
+    margin-left: 55px;
+}
+.and-tim1{
+    margin-left: 70px;
+}
+.and-tim2{
+    margin-left: 95px;
+}
