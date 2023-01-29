@@ -1,0 +1,70 @@
+.Team{
+    margin-top: 180px;
+    height: 1701px;
+    background: #F4F4F4;
+}
+.team-inner_text{
+    width: 458px;
+    padding-top: 120px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 74px;
+}
+.team-line{
+    margin-top: 72px;
+}
+.team-user{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 60px;
+}
+.user-team{
+    margin-top: 50px;
+}
+.user-team p{
+    margin-top: 6px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+.user-team span{
+    margin-top: 2px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+.Join{
+    display: flex;
+    justify-content: space-between;
+}
+.join-line{
+    margin-top: 180px;
+}
+.join-p{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 86px;
+    margin-top: 50px;
+}
+.join-text{
+    margin-top: 50px;
+}
+.join-text_post{
+    width: 556px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+.join-com{
+    position: relative;
+    margin-top: 32px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+
+}
+.join-com_img{
+    position: absolute;
+    margin-top: -1px;
+}

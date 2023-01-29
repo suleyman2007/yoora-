@@ -1,0 +1,68 @@
+.Strong hr{
+    margin-top: 120px;
+}
+
+.strong-we{
+    column-gap: 450px;
+    margin-top: 50px;
+
+}
+.strong-we-h2{
+    width: 458px !important;
+    font-weight: 700;
+    font-size: 64px;
+}
+.we-text{
+    margin-top: -130px;
+    margin-left: 700px;
+}
+.we-text-inner1{
+    width: 556px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+}
+.we-text-inner2{
+    margin-top: 33px;
+    width: 555px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+.user-info{
+    margin-top: 100px;
+}
+.user_shaw{
+    display: flex;
+    column-gap: 16px;
+}
+.user_name{
+    margin-top: 5px;
+
+}
+.user-info-text{    
+    margin-top: -60px;
+    margin-left: 690px;
+}
+.user-info-text p{
+    width: 555px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+}
+.Strong-static{
+    display: flex;
+    column-gap: 166px;
+    margin-top: 50px;
+}
+.static-block-1 p{
+    width: 295px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
+.static-block-1 h2{
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 130px;
+}

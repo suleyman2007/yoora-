@@ -3,6 +3,10 @@ import Nav from '../Nav/Nav'
 
 export default function Details() {
   return (
-    <div><Nav/>Details</div>
+    <div className='Details'>
+      <div className="container">
+        <Nav/>
+      </div>
+    </div>
   )
 }

@@ -1,0 +1,82 @@
+.Question{
+    height: 772px;
+    background: #004050;
+    border: 1px solid #000000;
+    color: white;
+}
+.question-inner{
+    padding-top: 120px;
+    display: flex;
+}
+.question-text{
+    width: 555px;
+    margin-top: 20px;
+}
+.question-text h2{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 74px;
+}
+.text-ques{
+    margin-top: 32px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    opacity: 0.72;
+}
+.hr-question{
+    margin-top: 64px;
+    opacity: 0.24;
+}
+.button-US{
+    margin-top: 50px;
+    display: flex;
+    column-gap: 50px;
+}
+.button-US button{
+    height: 64px;
+    width: 198px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.25px;
+} 
+.button-US p{
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.25px;
+}
+.img-ques{
+    position: relative;
+
+}
+.Cubes{
+    position: absolute;
+    height: 428px;
+    width: 652px;
+    background: #FFE377;
+    transform: rotate(90deg);
+    margin-top: 111px;
+    margin-left: 476px;
+}
+.Round2{
+    position: absolute;
+    height: 768px;
+    width: 384px;
+    
+    background-image: url('../../img//componya/question/Shape.png');
+    background-repeat: no-repeat;
+    margin-top: 267px;
+    margin-left: 632px;
+
+}
+.img-ques img{
+    position: absolute;
+    margin-left: 300px;
+    margin-top: -1px;
+}

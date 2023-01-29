@@ -4,8 +4,9 @@ import Nav from '../Nav/Nav'
 export default function Blog() {
   return (
     <div>
+      <div className="container">
       <Nav/>
-      Blog
+      </div>
     </div>
   )
 }

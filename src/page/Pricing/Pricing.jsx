@@ -3,6 +3,10 @@ import Nav from '../Nav/Nav'
 
 export default function Pricing() {
   return (
-    <div><Nav/>Pricing</div>
+    <div className='Pricing'>
+      <div className="container">
+        <Nav/>
+      </div>
+    </div>
   )
 }

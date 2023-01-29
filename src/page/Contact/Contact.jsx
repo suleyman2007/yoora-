@@ -3,6 +3,10 @@ import Nav from '../Nav/Nav'
 
 export default function Contact() {
   return (
-    <div><Nav/>Contact</div>
+    <div className='Contact'>
+      <div className="container">
+        <Nav/>
+      </div>
+    </div>
   )
 }
