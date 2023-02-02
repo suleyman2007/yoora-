@@ -2,6 +2,8 @@ import React from 'react'
 import './Nav.css'
 import { Link } from 'react-router-dom'
 import logo from '../../img/nav/Symbol.png'
+import 'antd/dist/reset.css';
+import Burger from '../../Components/Burger__nav/Burger';
 
 export default function Nav() {
   return (
@@ -31,6 +33,9 @@ export default function Nav() {
                             <Link to="/Contact">Contact</Link>
                         </li>
                     </ul>
+                    <div className="burger-im">
+                        <Burger />
+                    </div>
                 </nav>
                 <div className="buttons">
                     <button className='btn-in'>Log In</button>

@@ -28,10 +28,11 @@
 
 .pricing-cards{
     display: flex;
+    flex-wrap: wrap;
     column-gap: 50px;
 }
 .pricing-cards_1{
-    height: 800px;
+    height: 1000px;
     width: 374px;
     
     margin-top: 100px;
@@ -134,6 +135,7 @@
     background: #EBFBF3;
 }
 .reed-line{
+    width: 100%;
     margin-top: 100px;
     margin-bottom: 55px;
 }
@@ -142,6 +144,7 @@
     align-items: center;
 }
 .need p{
+    width: 508px;
     font-weight: 700;
     font-size: 32px;
     line-height: 42px;
@@ -177,4 +180,260 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 24px;
+}
+/* ////////////////////////////////////////// */
+@media screen and (max-width: 1655px) {
+    .pricing-inner-text h2{
+        width: 600px;
+        font-weight: 500;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 74px;
+    }
+    .pricing-inner-text P{
+        width: 360px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+    
+        margin-top: 60px;
+        margin-left: 100px;
+    }
+}
+/* ////////////////////////////////////////// */
+@media screen and (max-width: 1388px) {
+    .pricing-inner-text h2{
+        width: 400px;
+        font-weight: 500;
+        font-weight: 700;
+        font-size: 50px;
+    }
+    .pricing-inner-text P{
+        width: 360px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+    
+        margin-top: 60px;
+        margin-left: 100px;
+    }
+    .need{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+}
+/* ////////////////////////////////////////// */
+
+@media screen and (max-width: 1315px) {
+    .pricing-inner-text h2{
+        width: 400px;
+        font-weight: 500;
+        font-weight: 700;
+        font-size: 40px;
+    }
+    .pricing-inner-text P{
+        width: 360px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+    
+        margin-top: 60px;
+        margin-left: 40px;
+    }
+}
+/* ////////////////////////////////////////// */
+
+@media screen and (max-width: 1225px) {
+    .pricing-inner-text{
+        display: block;
+    }
+    .pricing-inner-text p{
+        margin-left: 0;
+    }
+}
+/* ////////////////////////////////////////// */
+
+@media screen and (max-width: 1225px) {
+    .pricing-inner-text{
+        display: block;
+    }
+    .pricing-inner-text p{
+        margin-left: 0;
+    }
+}
+/* ////////////////////////////////////////// */
+
+@media screen and (max-width: 1210px) {
+    .Pricing{
+        margin-left: -150px;
+    }
+}
+/* ////////////////////////////////////////// */
+@media screen and (max-width: 910px) {
+
+}
+/* ////////////////////////////////////////// */
+@media screen and (max-width: 810px) {
+    .reed-line{
+        width: 300px !important;
+    }
+    .need{
+        width: 300px;
+    }
+    .need p{
+        width: 272px;
+        height: 64px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 50px;
+        margin-left: 0px;
+    }
+    .need_button2,
+    .need_button1{
+        margin-top: 16px;
+        margin-left: 0px;
+    }
+}
+/* ////////////////////////////////////////// */
+@media screen and (max-width: 560px) {
+    .pricing-inner-text{
+        /* margin-left: 0px; */
+    }
+    .pricing-inner-text h2{
+        width: 272px;
+        height: 138px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .pricing-inner-text p{
+        width: 272px;
+        height: 104px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+/* ////////////////////////////////////////// */
+@media screen and (max-width: 560px) {
+
+    .pricing-inner-text h2{
+        margin-left: -70px;
+    }
+    .pricing-inner-text p{
+        margin-left: -70px;
+
+    }
+    .pricing-cards{
+        margin-left: -70px;
+    }
+}
+/* ////////////////////////////////////////// */
+@media screen and (max-width: 500px) {
+    .reed-line{
+        width: 300px !important;
+        margin-left: -70px;
+    }
+    .need{
+        width: 300px;
+        margin-left: -70px;
+    }
+}
+/* ////////////////////////////////////////// */
+@media screen and (max-width: 480px) {
+    .Pricing{
+        margin-left: -200px;
+    }
+}
+/* ////////////////////////////////////////// */
+@media screen and (max-width: 430px) {
+    .pri-title{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .card-inf{
+        width: 224px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .Price{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .Price sub{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .piricing-button{
+        height: 48px;
+        width: 224px;
+    }
+    .pricing-cards_1 span{
+        width: 100px !important;
+        height: 16px;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 16px;
+        margin-left: 10px;
+    }
+    .pricing-free-text p{
+        width: 108px;
+        height: 24px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .pricing-free-text img{
+        width: 24px;
+        height: 24px;
+    }
+    .pricing-tetle-reco{
+        display: block;
+        
+    }
+    .pricing-tetle-reco .pri-title{
+        margin-bottom: 2px;
+    }
+    .recomend{
+        margin-bottom: 15px;
+    }
+    .piricing-button-2{
+        height: 48px;
+        width: 224px;
+    }
+
+}
+/* ////////////////////////////////////////// */
+@media screen and (max-width: 500px) {
+    .reed-line{
+        width: 270px !important;
+        margin-left: -70px;
+    }
+    .need{
+        width: 270px;
+        margin-left: -70px;
+    }
+    .need p{
+        width: 272px;
+        height: 64px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 50px;
+        margin-left: 0px;
+    }
+    .need_button2,
+    .need_button1{
+        height: 48px;
+        width: 272px;
+
+        margin-top: 16px;
+        margin-left: 0px;
+    }
 }

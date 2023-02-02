@@ -17,15 +17,17 @@ export default function Footer() {
                       <img src={logo} alt="" />
                       <p>Yoora</p>
                   </div>
-                  <p className='list1-text'>We built an elegant solution. 
-                  Our team created a fully integrated sales and marketing solution for SMBs</p>
-                  <div className="imgs-logos">
-                    <img src={twt} alt="" />
-                    <img src={fc} alt="" />
-                    <img src={ln} alt="" />
+                  <div className="logo-txt">
+                    <p className='list1-text'>We built an elegant solution. 
+                    Our team created a fully integrated sales and marketing solution for SMBs</p>
+                    <div className="imgs-logos">
+                      <img src={twt} alt="" />
+                      <img src={fc} alt="" />
+                      <img src={ln} alt="" />
+                    </div>
                   </div>
                 </div>
-                <div className="list-2 list-footer">
+                <div className="list-2 list-footer list-footer-li">
                   <p>Company</p>
                   <ul className='footer-list_item'>
                     <li>About</li>
@@ -35,7 +37,7 @@ export default function Footer() {
                     <li>Careers</li>
                   </ul>
                 </div>
-                <div className="list-3 list-footer">
+                <div className="list-3 list-footer list-footer-li">
                   <p>Product</p>
                   <ul className='footer-list_item'>
                     <li>Sales software</li>
@@ -45,7 +47,7 @@ export default function Footer() {
                     <li>API</li>
                   </ul>
                 </div>
-                <div className="list-4 list-footer">
+                <div className="list-4 list-footer list-footer-li">
                   <p>Discover</p>
                   <ul className='footer-list_item'>
                     <li>Partner Program</li>
@@ -55,7 +57,7 @@ export default function Footer() {
                     <li>Resources</li>
                   </ul>
                 </div>
-                <div className="list-5 list-footer">
+                <div className="list-5 list-footer list-footer-li">
                   <p>Help Center</p>
                   <ul className='footer-list_item'>
                     <li>Community</li>

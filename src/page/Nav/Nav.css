@@ -36,6 +36,7 @@
     display: flex;
     margin-left: 380px;
     column-gap: 15px;
+    margin-top: -20px;
 }
 .btn-in {
     width: 65px;
@@ -56,4 +57,138 @@
     border-radius: 4px;
     color: #FFFFFF;
     border: none;
+}
+.burger-im{
+    display: none;
+    margin-top: -10px;
+}
+
+@media screen and (max-width: 1540px) {
+    .buttons{
+        margin-left: 300px;
+    }
+}
+/* ///////////////////////////////////////////////////// */
+@media screen and (max-width: 1460px) {
+    .buttons{
+        margin-left: 200px;
+    }
+}
+/* ///////////////////////////////////////////////////// */
+@media screen and (max-width: 1355px) {
+    .buttons{
+        margin-left: 100px;
+    }
+}
+/* ///////////////////////////////////////////////////// */
+@media screen and (max-width: 1260px) {
+    .buttons{
+        margin-left: 50px;
+    }
+}
+/* ///////////////////////////////////////////////////// */
+/* @media screen and (max-width: 1210px) {
+    .Nav{
+        margin-left: -150px;
+    }
+} */
+/* ///////////////////////////////////////////////////// */
+@media screen and (max-width: 1055px) {
+    /* .Nav{
+        margin-left: -200px;
+    } */
+    .nav__List{
+        margin-left: 50px;
+    }
+}
+/* ///////////////////////////////////////////////////// */
+@media screen and (max-width: 960px) {
+    .nav__List{
+        display: none;
+    }
+    .buttons{
+        display: none;
+    }
+    .burger-im{
+        display: block;
+        margin-left: 500px;
+    }
+}
+/* ///////////////////////////////////////////////////// */
+@media screen and (max-width: 850px) {
+    .burger-im{
+        margin-left: 450px;
+    }
+}
+/* ///////////////////////////////////////////////////// */
+@media screen and (max-width: 780px) {
+    .burger-im{
+        display: block;
+        margin-left: 400px;
+    }
+}
+/* ///////////////////////////////////////////////////// */
+@media screen and (max-width: 745px) {
+    .burger-im{
+        display: block;
+        margin-left: 350px;
+    }
+}
+/* ///////////////////////////////////////////////////// */
+@media screen and (max-width: 680px) {
+    .burger-im{
+        display: block;
+        margin-left: 300px;
+    }
+}
+/* ///////////////////////////////////////////////////// */
+@media screen and (max-width: 635px) {
+    .burger-im{
+        display: block;
+        margin-left: 250px;
+    }
+}
+/* ///////////////////////////////////////////////////// */
+@media screen and (max-width: 580px) {
+    .burger-im{
+        display: block;
+        margin-left: 200px;
+    }
+}
+/* ///////////////////////////////////////////////////// */
+@media screen and (max-width: 535px) {
+    .burger-im{
+        display: block;
+        margin-left: 150px;
+    }
+}
+/* ///////////////////////////////////////////////////// */
+@media screen and (max-width: 480px) {
+    .burger-im{
+        margin-left: 160px;
+    }
+    .logo-nav{
+        margin-left: -70px;
+    }
+}
+/* ///////////////////////////////////////////////////// */
+@media screen and (max-width: 420px) {
+    .burger-im{
+        margin-left: 160px;
+    }
+    .logo-nav{
+        margin-left: -90px;
+    }
+}
+/* ///////////////////////////////////////////////////// */
+@media screen and (max-width: 360px) {
+    .burger-im{
+        margin-left: 120px;
+    }
+}
+/* ///////////////////////////////////////////////////// */
+@media screen and (max-width: 325px) {
+    .burger-im{
+        margin-left: 100px;
+    }
 }

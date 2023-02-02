@@ -6,6 +6,7 @@ export default function Blog() {
     <div>
       <div className="container">
       <Nav/>
+      <h1>Recources</h1>
       </div>
     </div>
   )

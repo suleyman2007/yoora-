@@ -6,6 +6,7 @@ export default function Contact() {
     <div className='Contact'>
       <div className="container">
         <Nav/>
+        <h1>CONTACT</h1>
       </div>
     </div>
   )

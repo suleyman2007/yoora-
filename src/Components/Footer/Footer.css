@@ -3,6 +3,9 @@
 }
 .Footer-List{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
     column-gap: 120px;
 }
 .list-1 .list1-text{
@@ -12,6 +15,9 @@
     color: #404040;
 
     margin-top: 24px;
+}
+.list-footer{
+    margin-top: 100px;
 }
 .imgs-logos{
     margin-top: 25px;
@@ -38,6 +44,7 @@
 .fooetr-end{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
     margin-top: 50px;
     padding-bottom: 40px;
@@ -51,12 +58,20 @@
 }
 .list-end{
     display: flex;
+    flex-wrap: wrap;
     column-gap: 48px;
     font-weight: 400;
     font-size: 14px;
     letter-spacing: 0.2px;
 
     color: #000000;
+}
+.inc{
+    width: 187px ;
+}
+.list-end p{
+    width: 105px;
+    height: 19px;
 }
 .lungers-end{
     display: flex;
@@ -66,4 +81,21 @@
 .lungers-end select{
     border: none;
     outline: none;
+}
+/* ////////////////////////////////////////// */
+@media screen and (max-width: 500px) {
+    .footer-line,
+    .fooetr-end{
+        width: 200px;
+        margin-left: -70px;
+    }
+    .logo-txt{
+        margin-left: -70px;
+    }
+    .list-footer-li{
+        margin-left: -70px;
+    }
+    .fooetr-end{
+        
+    }
 }

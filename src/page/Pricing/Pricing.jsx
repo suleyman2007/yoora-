@@ -2,6 +2,9 @@ import React from 'react'
 import './Pricing.css'
 import Nav from '../Nav/Nav'
 import imgICON from '../../img/pricing/card/ic_done (1).png'
+import Asket from '../../Components-3/Asket/Asket'
+import Footer from '../../Components/Footer/Footer'
+import Beznis from '../../Components/Beznis/Beznis'
 
 export default function Pricing() {
   return (
@@ -177,11 +180,16 @@ export default function Pricing() {
           <div className="need">
             <p>Need help choosing the right plan?</p>
 
-            <button className='need_button1'>Contact sales</button>
-            <button className='need_button2'>Compare plans</button>
+            <div className="buttons-need">
+              <button className='need_button1'>Contact sales</button>
+              <button className='need_button2'>Compare plans</button>
+            </div>
           </div>
         </div>
       </div>
+      <Asket/>
+      <Beznis />
+      <Footer />
     </div>
   )
 }
